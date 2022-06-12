@@ -1,0 +1,39 @@
+*{margin: 0 auto;}
+
+body{
+    background-image: url(img/paisagem-mine.png);
+
+}
+.container{
+    display: flex;   
+    width: 300px;
+    height: 550px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#4AA51D, #B77D2D);
+}
+/* Nome, Email e Senha */
+#caixa{
+    outline: 0;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid ;
+    color: #fff; 
+}
+/* Botão Conectar-se */
+.button{
+    border-radius: 20px;
+    border: 0;
+    width: 180px;
+    height: 40px;
+    color: #000;
+    font-family: 'Press Start 2P';
+    font-size: 11px;
+}
+
+a, p{text-decoration: none; color: #fff;} /*CSS do link */
+a:hover{color: #000;} 
+input::placeholder{color: #fff;}
+
+
+
+    
